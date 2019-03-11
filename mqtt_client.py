@@ -77,7 +77,7 @@ while 1:
     print("Publicando números")
     print("*" * 80)
     client.publish("Pu_IoT_DH", numbers, 1)
-    time.sleep(1)
+    time.sleep(5)
 
 # También se puede conectar y enviar en una linea https://www.eclipse.org/paho/clients/python/docs/#single
 
